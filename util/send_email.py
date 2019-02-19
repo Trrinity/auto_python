@@ -7,7 +7,7 @@ class SendEmail:
 	global password
 	email_host = "smtp.163.com"
 	send_user = "dear-5-2-0@163.com"
-	password = "lyt520"
+	password = "l***"
 	def send_mail(self,user_list,sub,content):
 		user = "yantinli"+"<"+send_user+">"
 		message = MIMEText(content,_subtype='plain',_charset='utf-8')
