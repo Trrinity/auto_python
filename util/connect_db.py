@@ -5,11 +5,11 @@ import json
 class OperationMysql:
 	def __init__(self):
 		self.conn = pymysql.connect(
-			host='13.231.72.161',
+			host='13.231.33.161',
 			port=3306,
 			user='myuser',
-			passwd='mypassword',
-			db='wdscan',
+			passwd='&&^^',
+			db='%%',
 			charset='utf8',
 			cursorclass=pymysql.cursors.DictCursor
 			)
