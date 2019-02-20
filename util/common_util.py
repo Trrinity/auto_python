@@ -10,7 +10,7 @@ class CommonUtil:
 		'''
 		flag = None
 		if isinstance(str_one,str):
-			str_one = str_one.encode('unicode-escape').decode('string_escape')
+			str_one = str_one.encode('unicode-escape').decode('string_escape')# 转义成字符串
 		return operator.eq(str_one,str_two)
 		if str_one in str_two:
 			flag = True

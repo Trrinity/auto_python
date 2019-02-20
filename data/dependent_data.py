@@ -1,6 +1,5 @@
 #coding:utf-8
 import sys
-import math
 import json
 sys.path.append('E:/www/ImoocInterface/')
 from util.operation_excel import OperationExcel
