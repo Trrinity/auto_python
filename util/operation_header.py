@@ -34,7 +34,7 @@ if __name__ == '__main__':
 	url = "http://m.imooc.com/passport/user/login"
 	data = {
 		"username":"522268397@qq.com",
-		"password":"lyt520",
+		"password":"l**520",
 		"verify":"",
 		"referer":"https://m.imooc.com"
 	}
